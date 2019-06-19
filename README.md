@@ -5,7 +5,7 @@ In her free time she likes to cook, paint, and go for long bike rides.
 
 ## Projects
 
-[Link](url) and ![Image](src)
+[PDF Resume](Resume_Strug2019.pdf) and ![Image](src)
 
 
 ## Resume
