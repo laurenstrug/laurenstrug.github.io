@@ -16,7 +16,7 @@ Lauren is a geospatial analyst focused on data-driven solutions with GIS, cartog
 
 [northeast minnesota]
 
-![apartment communities](ApartmentCommunities.jpg)
+![apartment communities](ApartmentCommunities-page-001.jpg)
 ## Resume
 
 [Click for downloadable PDF Resume](Resume_Strug2019.pdf)
