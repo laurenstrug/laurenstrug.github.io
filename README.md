@@ -8,5 +8,7 @@ Lauren is a geospatial analyst focused on data-driven solutions with GIS, cartog
 ## Resume
 
 [Click for downloadable PDF Resume](Resume_Strug2019.pdf)
+
+
 ![Resume](resume.jpg)
 
