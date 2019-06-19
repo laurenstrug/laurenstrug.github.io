@@ -11,6 +11,12 @@ Lauren is a geospatial analyst focused on data-driven solutions with GIS, cartog
 
 [SkimStop Participants](http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=28f28a73beac4a1e85ba567655ee02b9)
 
+#### Static Maps
+[mars map]
+
+[northeast minnesota]
+
+![apartment communities](ApartmentCommunities.jpg)
 ## Resume
 
 [Click for downloadable PDF Resume](Resume_Strug2019.pdf)
