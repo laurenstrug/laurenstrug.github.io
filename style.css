@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'LemonMilk';
+  src: url('LemonMilk/LemonMilk.eot'); /*IE9 Compat Modes*/
+  src: url('LemonMilk/LemonMilk.woff2') format('woff2'), /*Super Modern Browsers */
+       url('LemonMilk/LemonMilk.woff') format('woff'), /*Pretty Modern Browsers*/
+       url('LemonMilk/LemonMilk.ttf') format('truetype'), /*Safari, Android, iOS*/
+       url('LemonMilk/LemonMilk.svg#svgLemonMilk') format('svg'); /* Legacy iOS*/
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  height: 100%;
+}
+
+body {
+  color: #415570;
+  height: 100%;
+}
+
+h2 {
+  font-family: 'LemonMilk', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #685e69;
+  border-top: 3px solid;
+}
+
+h3 {
+  font-family: 'LemonMilk', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+/*.background{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url('earth-surface-moss.jpg') center center no-repeat;
+  background-size: cover;
+}*/
+
+/*.background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgb(226, 246, 255), rgb(255, 224, 236));
+  opacity: .6;
+}*/
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.header {
+  text-align: center;
+}
+
+#about {
+  padding-top: 100px;
+}
+
+.border {
+  padding: 1px;
+  border: 10px solid #41546E;
+  margin: 30px;
+  display: inline-block;
+}
+
+.links{
+  text-align: center;
+}
+
+.links img {
+  height: 87px;
+}
+
+.links a {
+  color: #41546E;
+  text-decoration: none;
+  font-family: "LemonMilk", sans-serif;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+.links * {
+  display: inline-block;
+}
+
+#topbtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #90cece;
+  cursor: pointer;
+  font-size: 35px;
+  font-family: "LemonMilk", sans-serif;
+}
+
+.button {
+  padding:10px 20px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #90cece;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.button:hover {background-color: #608A8A}
+
+.button:active {
+  background-color: #608A8A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.grid_intro{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.grid_skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.b_skill img {
+  height: 300px;
+}
+
+.edu {
+  text-align: right;
+}
+
+.edu2 {
+  text-align: center;
+}
+
+.grid_course{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.flowerborder img{
+  height: 100px;
+}
+
+.flowerborder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+iframe {
+  width: 700px;
+  height: 500px;
+}
+
+p, li {
+  font-size: 19px;
+  line-height: 1.4;
+}
