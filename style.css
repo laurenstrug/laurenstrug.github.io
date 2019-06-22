@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'LemonMilk';
-  src: url('LemonMilk Font/LemonMilk/LemonMilk.eot'); /*IE9 Compat Modes*/
-  src: url('LemonMilk Font/LemonMilk/LemonMilk.woff2') format('woff2'), /*Super Modern Browsers */
-       url('LemonMilk Font/LemonMilk/LemonMilk.woff') format('woff'), /*Pretty Modern Browsers*/
-       url('LemonMilk Font/LemonMilk/LemonMilk.ttf') format('truetype'), /*Safari, Android, iOS*/
-       url('LemonMilk Font/LemonMilk/LemonMilk.svg#svgLemonMilk') format('svg'); /* Legacy iOS*/
+  src: url('LemonMilk Font/LemonMilk.eot'); /*IE9 Compat Modes*/
+  src: url('LemonMilk Font/LemonMilk.woff2') format('woff2'), /*Super Modern Browsers */
+       url('LemonMilk Font/LemonMilk.woff') format('woff'), /*Pretty Modern Browsers*/
+       url('LemonMilk Font/LemonMilk.ttf') format('truetype'), /*Safari, Android, iOS*/
+       url('LemonMilk Font/LemonMilk.svg#svgLemonMilk') format('svg'); /* Legacy iOS*/
 }
 
 html, body {
