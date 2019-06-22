@@ -35,6 +35,7 @@ h3 {
   font-family: 'LemonMilk', sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
+  color: #685e69;
 }
 
 /*.background{
@@ -141,6 +142,20 @@ h3 {
 .grid_intro{
   display: grid;
   grid-template-columns: 4fr 1fr;
+}
+
+.cart_box{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+}
+
+.box{
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
 
 .grid_skill {
