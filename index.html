@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lauren Strug Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700" rel="stylesheet">
+</head>
+<body>
+  <div class="background"></div>
+<!--name and picture-->
+  <div class="container">
+    <div class="header">
+      <img src="firstname.png" alt="Lauren" height=386.05px>
+        <div class="border">
+          <img src="portrait.jpg" alt="Portrait by Lisa Luck" width= 300px>
+        </div>
+      <img src="lastname.png" alt="Strug" height=386.05px>
+    </div>
+<!--top button-->
+    <button onclick="topFunction()" id="topbtn" title="Go to top">⬆</button>
+     <script>
+             // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+               document.getElementById("topbtn").style.display = "block";
+           } else {
+               document.getElementById("topbtn").style.display = "none";
+           }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+           document.body.scrollTop = 0; // For Safari
+           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+      </script>
+
+<!--navigation bar-->
+    <nav class="links">
+      <img src="flower1.png">
+      <a class="pagelink" href="#about">ABOUT</a>
+      <img src="flower2.png">
+      <a class="pagelink" href="#portfolio">PORTFOLIO</a>
+      <img src="flower3.png">
+    </nav>
+<!--social media icons-->
+    <a href=# class="fa fa-gmail"></a>
+    <a href=# class="fa fa-linkedin"></a>
+    <a href=# class="fa fa-instagram"></a>
+
+<!---portfolio--->
+	<div id="portfolio">
+      <h2>Portfolio</h2>
+		<div class="grid_intro">
+          <div class="a_intro">
+            <p>Lauren is a geospatial analyst focused on data-driven solutions with GIS, cartographic design, and geocomputation. 
+			She is currently earning a Masters of GIS at the University of Minnesota. In her free time she likes to cook, paint, 
+			and go for long bike rides. </p>
+          </div>
+          <div class="b_intro">
+          <a class="button" href="" download="lauren_strug_resume">DOWNLOAD RESUME</a>
+          </div>
+        </div>
+	  <h3>ArcGIS Online Web Apps</h3>
+		<p><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=7397e3a072dd4b5cadc1444bbe456d68">Public Schools</a> | 
+		<a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=74c9e566380c45eb95c575e71932973b">Outdoor Warning Sirens</a> | 
+		<a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=b23aa0521ef34bb19d89f3b0f25a434d">Apartment Finder</a> | 
+		<a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=28f28a73beac4a1e85ba567655ee02b9">SkimStop Participants</a>
+		</p>
+	  <h3>Cartography</h3>
+	  <a href="https://www.w3schools.com">
+<img border="0" alt="W3Schools" src="logo_w3s.gif" width="100" height="100">
+</a>
+	  <img src="cartomap.png" alt="Twin Cities Traffic Stop Project" width=700px>
+
+	  <iframe src="mapboxmnpls.html"></iframe>
+    </div>
+	
+<!--about-->
+    <div id="about">
+      <h2>Experience</h2>
+        <h3>Skills</h3>
+          <div class="grid_skill">
+            <div class="a_skill">
+              <ul>
+                <li>ESRI ArcGIS Pro, Desktop, Online, Arcpy, ArcGIS Python API</li>
+                <li>QGIS, <a href="https://clarklabs.org/">IDRISI</a><a href="https://www.mapbox.com/">mapbox</a>, <a href="https://carto.com/">CARTO</a></li>
+                <li>Adobe Illustrator, InDesign</li>
+                <li>Python (GDAL, Pandas)</li>
+                <li>SQL Server, SQLite</li>
+                <li>HTML, CSS</li>
+                <li>Microsoft Suite (Excel, Outlook, Access)</li>
+              </ul>
+            </div>
+            <div class="b_skill"><img src="flower4.png"></div>
+          </div>
+
+      <div class="edu">
+        <h3>Education</h3>
+          <h4>University of Minnesota, M.A. Geographic Information Science, December 2019</h4>
+
+          <h4>Beloit College, Wisconsin, B.S. Geology, May 2015</h4>
+      </div>
+
+        <h3>Selected Coursework</h3>
+          <div class="grid_course">
+            <div class="a_course"><h4>Graduate</h4></div>
+            <div class="b_course"><p>Principles of GIS, ArcGIS I, Numerical Spatial Analysis, GIS Project Management,
+                Geocomputation, Advanced Geocomputation, GIS Development Practicum</p></div>
+            <div class="c_course"><h4>Undergraduate</h4></div>
+            <div class="d_course"><p>Petrology, Mineralogy, Geomorphology, Sedimentology, Paleontology, Field Geology,
+                Environmental Geologic Hazards, Calculus I and II, Physics I, Astronomy,
+                Planetary Geology and Astrobiology</p></div>
+          </div>
+            <div class="flowerborder">
+              <div><img src="flower5.png"></div>
+              <div><img src="flower6.png"></div>
+              <div><img src="flower5.png"></div>
+              <div><img src="flower6.png"></div>
+            </div>
+      <div class="edu2s">
+        <h3>Scholarships</h3>
+          <ul style="list-style-type:none">
+            <li>Chamberlin Scholarship for thesis research, Beloit College, Fall 2014</li>
+            <li>Wing-Lockwood Scholarship for Field Geology, Beloit College, Summer 2013</li>
+            <li>Ellis H. Denney Endowed Scholarship, Beloit College, 2012-2015</li>
+            <li>Eaton Scholarship, Beloit College, 2011-2015</li>
+          </ul>
+        <h3>Awards</h3>
+        <ul style="list-style-type:none">
+          <li>MN GIS/LIS Student Assistantship, July 2018</li>
+          <li>U-Spatial Mapping Prize Honorable Mention, May 2018</li>
+          <li>Outstanding Teaching Award as a Laboratory Assistant, May 2015</li>
+          <li>June Baker Memorial Award for Music, May 2013</li>
+        </ul>
+      </div>
+
+        <h3>Experience</h3>
+          <h4>Minnesota Pollution Control Agency / / Student Worker Paraprofessional</h4>
+          <p>March 2018 -- Present   Minneapolis, MN</p>
+            <ul>
+              <li>Data harvesting for the LCCMR funded Groundwater Contamination Mapping project</li>
+              <li>Compiling current and historic well log data and analytical data for superfund sites across Minnesota</li>
+              <li>Georeferncing contractor maps, creating and editing point data</li>
+              <li>Database creationg using EQuIS Professional and Enterprise for well location, construction, lithology, and lab anatlyical results</li>
+              <li>Performing QA/QC to support metedata standardization</li>
+              <li>Writing Python programming projects to create databases using SQLite and parse through using Pandas dataframe</li>
+              <li>Presented to the GIS User Group "Geocomputing, Jupyter Notebooks, and Using Python to Create Lidar-dervied Datasets"</li>
+              <li>Groundwater sampling for the Ambient Groundwater Network</li>
+            </ul>
+          <h4>USGS Water Science Center / / Volunteer Internship</h4>
+          <p>January 2018 -- June 2018   Mounds View, MN</p>
+            <ul>
+              <li>Assisting in database management of the national Site-Specific Water-Use Database (SWUDS) for Iowa</li>
+              <li>Finding and linking unique identifiers using ArcMap 10.5 and Excel to format for upload to Microsoft Access</li>
+              <li>Verifying well locations between multiple datasets and documenting key fields</li>
+              <li>Map creation for various side projects with multiple attributes</li>
+            </ul>
+
+    </div>
+  </div>
+
+  </body>
+  </html>
