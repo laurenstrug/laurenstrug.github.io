@@ -120,7 +120,7 @@ h3 {
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: #fff;
+  color: #444;
   background-color: #90cece;
   border: none;
   border-radius: 10px;
@@ -129,6 +129,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  text-decoration: none
 }
 
 .button:hover {background-color: #608A8A}
@@ -156,6 +157,17 @@ h3 {
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
+  vertical-align: middle;
+}
+
+img.highlight{
+	border: 3px solid #444;
+    width: 100%;
+	box-sizing: border-box;
+}
+
+img.highlight:hover{
+	border: 3px solid white;
 }
 
 .grid_skill {
@@ -190,12 +202,16 @@ h3 {
   justify-content: space-between;
 }
 
-iframe {
-  width: 700px;
-  height: 500px;
-}
-
 p, li {
   font-size: 19px;
   line-height: 1.4;
+}
+
+#contact {
+	padding-bottom: 100px;
+}
+
+.copyright{
+	text-align: center;
+	padding-top: 50px
 }
