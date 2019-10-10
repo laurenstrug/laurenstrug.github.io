@@ -155,11 +155,14 @@ h3 {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 20px 10px 20px; 
   font-size: 150%;
   vertical-align: middle;
 }
 
+.box p {
+	margin: 10px 0; }
+	
 img.highlight{
 	border: 3px solid #444;
     width: 100%;
