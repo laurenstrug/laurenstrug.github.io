@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'LemonMilk';
+  src: url('LemonMilk Font/LemonMilk.eot'); /*IE9 Compat Modes*/
+  src: url('LemonMilk Font/LemonMilk.woff2') format('woff2'), /*Super Modern Browsers */
+       url('LemonMilk Font/LemonMilk.woff') format('woff'), /*Pretty Modern Browsers*/
+       url('LemonMilk Font/LemonMilk.ttf') format('truetype'), /*Safari, Android, iOS*/
+       url('LemonMilk Font/LemonMilk.svg#svgLemonMilk') format('svg'); /* Legacy iOS*/
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  height: 100%;
+}
+
+body {
+  color: #415570;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'LemonMilk', sans-serif;
+  font-size: 60px;
+  letter-spacing: 6px;
+  color: #415570;
+  display: inline;
+}
+
+h2 {
+  font-family: 'LemonMilk', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #685e69;
+  border-top: 3px solid;
+}
+
+h3 {
+  font-family: 'LemonMilk', sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #685e69;
+}
+
+/*.background{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url('earth-surface-moss.jpg') center center no-repeat;
+  background-size: cover;
+}*/
+
+/*.background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgb(226, 246, 255), rgb(255, 224, 236));
+  opacity: .6;
+}*/
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.header {
+  text-align: center;
+}
+
+#about {
+  padding-top: 50px;
+}
+
+.border {
+  padding: 10px;
+  border: 10px solid #41546E;
+  margin: 30px;
+  display: inline-block;
+}
+
+.links{
+  text-align: center;
+}
+
+.links img {
+  height: 87px;
+}
+
+.links a {
+  color: #41546E;
+  text-decoration: none;
+  font-family: "LemonMilk", sans-serif;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+.links * {
+  display: inline-block;
+}
+
+#topbtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #90cece;
+  cursor: pointer;
+  font-size: 35px;
+  font-family: "LemonMilk", sans-serif;
+}
+
+.button {
+  padding:10px 20px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #415570;
+  border: 2px solid #415570;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-decoration: none
+}
+
+.button:hover {
+  background-color: #415570;
+  color: white;
+}
+
+/* .button:active {
+  background-color: #608A8A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+
+.grid_intro{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.cart_box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+
+.box{
+  background-color: #efefef;
+  color: #1C232B;
+  border-radius: 5px;
+  padding: 20px 20px 10px 20px; 
+  font-size: 150%;
+  vertical-align: middle;
+}
+
+.box p {
+	margin: 10px 0; }
+	
+img.highlight{
+	border: 3px solid white;
+    width: 100%;
+	box-sizing: border-box;
+}
+
+img.highlight:hover{
+	border: 3px solid #444;
+}
+
+.grid_skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.b_skill img {
+  height: 300px;
+}
+
+.edu {
+  text-align: right;
+}
+
+.grid_course{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.flowerborder img{
+  height: 100px;
+}
+
+.flowerborder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+p, li {
+  font-size: 19px;
+  line-height: 1.4;
+}
+
+#contact {
+	padding-bottom: 100px;
+}
+
+.copyright{
+	text-align: center;
+	padding-top: 50px
+}

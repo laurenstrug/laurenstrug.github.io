@@ -1,171 +1,163 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Lauren Strug Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700" rel="stylesheet">
-</head>
-<body>
-  <div class="background"></div>
-<!--name and picture-->
-  <div class="container">
-    <div class="header">
-      <img src="images/firstname.png" alt="Lauren" height=386.05px>
-        <div class="border">
-          <img src="images/portrait.jpg" alt="Portrait by Lisa Luck" width= 300px>
-        </div>
-      <img src="images/lastname.png" alt="Strug" height=386.05px>
-    </div>
-<!--top button-->
-    <button onclick="topFunction()" id="topbtn" title="Go to top">⬆</button>
-     <script>
-             // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-               document.getElementById("topbtn").style.display = "block";
-           } else {
-               document.getElementById("topbtn").style.display = "none";
-           }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-           document.body.scrollTop = 0; // For Safari
-           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-      </script>
-
-<!--navigation bar-->
-    <nav class="links">
-      <img src="images/flower3.png">
-	  <a class="pagelink" href="#contact">CONTACT</a>
-	  <img src="images/flower2.png">
-	  <a href="https://github.com/laurenstrug" target="_blank">GITHUB</a>
-	  <img src="images/flower1.png">
-	  <a href="https://laurenstrug.github.io/Resume_Strug2019.pdf" target="_blank">RESUME</a>
-    </nav>
-
-<!---portfolio--->
-	<div id="portfolio">
-      <h2>Portfolio</h2>
-		<div class="grid_intro">
-          <div class="a_intro">
-		    <p>Check out my <a href="https://storymaps.arcgis.com/stories/2b97391a05da40b0a4698683783acb97" target="_blank">Esri Featured ArcGIS Story Map</a> I made for the City of Brooklyn Park</p>
-            <p>I earned a Master's of Geographic Information Science at the University of Minnesota. I served as President of the GIS Student Organization in 2018-19. I was 
-			the Teaching Assistant for Principles of Cartography and Princples of GIS.</p>
-			<p>In 2019 I won second place in the <a href="https://www.mngislis.org/news/news.asp?id=477202" target="_blank">MN GIS/LIS Graduate Student Scholarship
-			competition</a> for my collaborative <a href="https://github.com/laurenstrug/Do-we-tweet-where-we-ride" target="_blank">Twitter API and Transit research</a>. I attended the Esri User Conference in July 2019 as a Student Assistant. In 2018, 
-			I won honorable mention in the <a href="https://research.umn.edu/units/uspatial/mapping-prize/2018-best-maps" target="_blank">U-Spatial Mapping Competition.</a>
+<html lang="en">
+  <head>
+    <title>Lauren Strug Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="background"></div>
+    <!--name and picture-->
+    <div class="container">
+      <div class="header">
+        <!-- <img src="images/firstname.png" alt="Lauren" height=386.05px> -->
+          <div class="border">
+            <img src="images/portrait.jpg" alt="Portrait by Dana Telsrow" width= 200px>
           </div>
-          <div class="b_intro">
-          <a class="button" href="https://laurenstrug.github.io/Resume_Strug2019.pdf" target="_blank">VIEW RESUME</a>
-          </div>
-        </div>
-	  <h3>ArcGIS Online Web Apps</h3>
-		<div class="cart_box">
-			<div class="box"><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=74c9e566380c45eb95c575e71932973b"  target="_blank">
-			<img class="highlight" src="images/Sirens.PNG" alt="Outdoor Warning Sirens Map"></a><p>Outdoor Warning Sirens</p></div> 
-			<div class="box"><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=b23aa0521ef34bb19d89f3b0f25a434d"  target="_blank">
-			<img class="highlight" src="images/ApartmentFinder.PNG" alt="Apartment Finder Map"></a><p>Apartment Finder</p></div>
-			<div class="box"><a href="https://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=d3215df47ade4879b461f62d70425907" target="_blank">
-			<img class="highlight" src="images/RentalFinder.PNG" alt="Rental License Finder Map"></a><p>Rental License Finder</p></div>
-			<div class="box"><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=7397e3a072dd4b5cadc1444bbe456d68"  target="_blank">
-			<img class="highlight" src="images/SchoolFinder.PNG" alt="Public Schools Finder Map"></a><p>Public Schools</p></div>
-			<div class="box"><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=28f28a73beac4a1e85ba567655ee02b9"  target="_blank">
-			<img class="highlight" src="images/SkimStop.PNG" alt="SkimStop Participants Map"></a><p>SkimStop Participants</p></div>
-			<div class="box"><a href="https://storymaps.arcgis.com/stories/2b97391a05da40b0a4698683783acb97" target="_blank">
-			<img class="highlight" src="images/SummerBlossom.PNG" alt="Summer Blossom Map"></a><p>Summer Blossom</p></div>
-		</div>
-	  <h3>Cartography and Work Examples</h3>
-		<div class="cart_box">
-			<div class="box"><a href="https://laurenstrug.github.io/GeologyofMars.png"  target="_blank">
-			<img class="highlight" src="images/MarsPic.PNG" alt="Mars"></a><p>Geologic Map of Mars</p></div>
-			<div class="box"><a href="https://laurenstrug.github.io/Strul5.pdf" target="_blank">
-			<img class="highlight" src="images/NEMinn.png" alt="Northeast Minnesota Road Map"></a><p>Northeast Minnesota Road Map</p></div>
-			<div class="box"><a href="https://github.com/laurenstrug/mn-landslide-susceptibility-/tree/ArcPy-Update-Version" target="_blank">
-			<img class="highlight" src="images/lidar.PNG" alt="Lidar-derived products with GDAL and Arcpy Project"></a><p>Lidar-derived products with GDAL and Arcpy</p></div>
-			<!---<div class="box"><a href="https://laurenstrug.github.io/MultivariateTransitMap.pdf" target="_blank">
-			<img class="highlight" src="images/multivariate.PNG" alt="Metro Transit Population Served Multivariate Map"></a><p>Metro Transit Population Served Multivariate Map</p></div>
-			<div class="box"><a href="https://brooklynpark.maps.arcgis.com/home/index.html" target="_blank">
-			<img class="highlight" src="images/BrooklynParkHomepage.png" alt="Brooklyn Park AGOL Homepage"></a><p>Brooklyn Park AGOL Homepage Design</p></div>
-			<div class="box"><a href="https://laurenstrug.github.io/Rentals.pdf" target="_blank">
-			<img class="highlight" src="images/rentals.PNG" alt="Brooklyn Park Rentals"></a><p>Brooklyn Park Rentals</p></div>
-			<div class="box"><a href="https://laurenstrug.github.io/ApartmentCommunities.jpg" target="_blank">
-			<img class="highlight" src="images/apartments.PNG" alt="Brooklyn Park Apartment Communities"></a><p>Brooklyn Park Apartment Communities</p></div>--->
-			<div class="box"><a href="https://laurenstrug.github.io/DudeWheresMyCoworker.JPG" target="_blank">
-			<img class="highlight" src="images/DudeWheresMyCoworker.png" alt="Dude Where's my Coworker?"></a><p>Dude Where's My Coworker Geocortex App</p></div>
-			<div class="box"><a href="https://github.com/laurenstrug/NitrogenPollutionModeling" target="_blank">
-			<img class="highlight" src="images/NitrogenPollution.PNG" alt="Nitrogen Pollution Modeling"></a><p>Nitrogen Pollution Modeling Python Project</p></div>
-			<!---<div class="box"><a href="https://laurenstrug.github.io/InorganicNitrogenPoster.pdf" target="_blank">
-			<img class="highlight" src="images/NitrogenPoster.PNG" alt="Inorganic Nitrogen Pollution in Lake Superior Watershed Academic Poster"></a><p>Inorganic Nitrogen Pollution Academic Poster</p></div>-->
-			<div class="box"><a href="https://conservancy.umn.edu/handle/11299/200537" target="_blank">
-			<img class="highlight" src="images/greenway.png" alt="City of Ramsey Greenway Accessibility Project"></a><p>City of Ramsey Greenway Accessibility</p></div>
-			<div class="box"><a href="https://laurenstrug.github.io/LandCoverClassification_LakeCountyMN.pdf" target="_blank">
-			<img class="highlight" src="images/landcover.PNG" alt="Landcover Classification in Lake County, MN"></a><p>Landcover Classification with ASCII</p></div>
-			<div class="box"><a href="https://laurenstrug.github.io/Ottertail.pdf" target="_blank">
-			<img class="highlight" src="images/ottertail.PNG" alt="Ottertail County Map"></a><p>Ottertail County Road Map</p></div>
-			<div class="box"><a href="https://8501fall2017.carto.com/builder/bd183a1c-a6d9-454d-857e-eea9cc99c876/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B44.811557381269765%2C-93.44627380371095%5D%2C%22sw%22%3A%5B45.09242890029916%2C-93.02467346191408%5D%2C%22center%22%3A%5B44.952164961986206%2C-93.23547363281251%5D%2C%22zoom%22%3A11%7D%2C%22widgets%22%3A%7B%227a5d77d1-ba8b-4d96-8b5b-9b3764a8db12%22%3A%7B%22collapsed%22%3Atrue%7D%2C%229148f0af-dd68-4ad4-a92a-f59a88989637%22%3A%7B%22normalized%22%3Atrue%7D%2C%22fa5fda32-e757-4ae8-838c-179a2b65337d%22%3A%7B%22normalized%22%3Atrue%7D%2C%22c4f81019-edbe-4152-9a09-cdc49a28a28b%22%3A%7B%22normalized%22%3Atrue%7D%2C%228c4bd119-f77a-4c30-9e9a-ebdc5e92db69%22%3A%7B%22normalized%22%3Atrue%7D%2C%224732769e-0f9c-4491-915d-6366eab7eeb2%22%3A%7B%22normalized%22%3Atrue%7D%2C%223f3e5d33-9fb4-432b-b88e-6bf18761d1a5%22%3A%7B%22normalized%22%3Atrue%7D%2C%22aad6776d-e050-4161-a42c-d6d865ebd8f2%22%3A%7B%22normalized%22%3Atrue%7D%2C%226bfecfec-c6b6-4466-aaec-383ab2df86f8%22%3A%7B%22normalized%22%3Atrue%7D%2C%220b908db0-81e1-49b8-8794-f3759c01e1f5%22%3A%7B%22normalized%22%3Atrue%7D%2C%22e01cd7a6-627a-4bc8-b4ab-f2a19a740f69%22%3A%7B%22normalized%22%3Atrue%7D%2C%22c753b1c8-7c44-4e6d-91dc-411f64d79133%22%3A%7B%22normalized%22%3Atrue%7D%2C%22928a7440-99e8-43a9-b32e-67e605422c62%22%3A%7B%22normalized%22%3Atrue%7D%2C%22d47f89b3-5cb2-4a5c-a7c0-eb726e96967d%22%3A%7B%22normalized%22%3Atrue%7D%2C%22715f99e0-50d2-4035-bf10-44e7409b1c87%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"
-			target="_blank">
-			<img class="highlight" src="images/cartomap.png" alt="Twin Cities Traffic Stop Project"></a><p>Twin Cities Traffic Stops App, CARTO</p></div>
-		</div>	
-			<div class="grid_intro">
-				<p><strong>Other interests and projects:</strong> hillshade and 3D mapping, multivariate thematic mapping in ArcGIS Pro, Object-Based Image Analysis, Bus Rapid Transit Capacity Analysis, learning JavaScript</p>
-			</div>
-    </div>
-	
-<!--about-->
-    <div id="about">
-      <h2>Experience</h2>
-        <h3>Skills</h3>
-          <div class="grid_skill">
-            <div class="a_skill">
-              <ul>
-                <li>ESRI ArcGIS Pro, ArcMap 10.x, Catalog, Administrator, ArcSDE, AGOL, ArcGIS Server, Arcade, Arcpy, ArcGIS API, ModelBuilder</li>
-                <li>Python (GDAL, Fiona, Shapely, Rasterio, Dask, Pandas, numpy, Twitter API)</li>
-                <li>MS SQL Server, Oracle, SQLite, PostgreSQL, PostGIS</li>
-                <li>HTML, CSS</li>
-				<li>Adobe Illustrator, InDesign, Photoshop</li>
-				<li>Geocortex, QGIS, IDRISI, eCognition developer, mapbox, CARTO</li>
-				<li>Task Manager, Excel data connections, New World Public Saftey, CRM, Survey123</li>
-              </ul>
+          <h1>Lauren Strug</h1>
+        <!-- <img src="images/lastname.png" alt="Strug" height=386.05px> -->
+      </div>
+      <!--top button-->
+      <button onclick="topFunction()" id="topbtn" title="Go to top">⬆</button>
+
+      <!--navigation bar-->
+      <nav class="links">
+        <img src="images/flower3.png">
+          <a class="pagelink" href="#contact"><b>CONTACT</b></a>
+        <img src="images/flower2.png">
+          <a href="https://github.com/laurenstrug" target="_blank"><b>GITHUB</b></a>
+        <img src="images/flower1.png">
+          <a href="https://laurenstrug.github.io/Resume_Strug2020.pdf" target="_blank"><b>RESUME</b></a>
+      </nav>
+
+    <!---portfolio--->
+    <div id="portfolio">
+      <h2></h2>
+      <div class="grid_intro">
+            <div class="a_intro">
+              <!-- <p>Check out my <a href="https://storymaps.arcgis.com/stories/2b97391a05da40b0a4698683783acb97" target="_blank">Esri Featured ArcGIS Story Map</a> I made for the City of Brooklyn Park</p> -->
+              <p>I earned a Master's of Geographic Information Science at the University of Minnesota. I served as President of the GIS Student Organization in 2018-19. I was 
+                 the Teaching Assistant for Principles of Cartography and Princples of GIS.</p>
+              <p>In 2019 I won second place in the <a href="https://www.mngislis.org/news/news.asp?id=477202" target="_blank">MN GIS/LIS Graduate Student Scholarship
+                 competition</a> for my collaborative <a href="https://github.com/laurenstrug/Do-we-tweet-where-we-ride" target="_blank">Twitter API and Transit research</a>. I attended the Esri User Conference in July 2019 as a Student Assistant. In 2018, 
+                 I won honorable mention in the <a href="https://research.umn.edu/units/uspatial/mapping-prize/2018-best-maps" target="_blank">U-Spatial Mapping Competition.</a></p>
+              <p>I am the GIS Programm at the California Center for Sustainable Communities primarily working on the Energy Atlas projects.</p>
             </div>
-            <div class="b_skill"><img src="images/flower4.png"></div>
-          </div>
+            <div class="b_intro">
+            <a class="button" href="https://laurenstrug.github.io/Resume_Strug2020.pdf" target="_blank">VIEW RESUME</a>
+            </div>
+        </div>
 
-      <div class="edu">
-        <h3>Education</h3>
-          <h4>University of Minnesota, MGIS, December 2019</h4>
+      <h3>Cartography and Work Examples</h3>
+      <div class="cart_box">
+        <div class="box"><a href="https://bayarea.energyatlas.ucla.edu/"  target="_blank">
+        <img class="highlight" src="images/BayAreaEnergyAtlas.PNG" alt="Mars"></a><p>Bay Area Energy Atlas</p></div>
+        <div class="box"><a href="https://solar.energyatlas.ucla.edu/"  target="_blank">
+          <img class="highlight" src="images/CommunitySolar.PNG" alt="Mars"></a><p>Community Solar Opportunities</p></div>
+        <div class="box"><a href="https://laurenstrug.github.io/GeologyofMars.png"  target="_blank">
+        <img class="highlight" src="images/MarsPic.PNG" alt="Mars"></a><p>Geologic Map of Mars</p></div>
+        <div class="box"><a href="https://laurenstrug.github.io/NE_Minn_Roadmap_Strug.pdf" target="_blank">
+        <img class="highlight" src="images/NEMinn.png" alt="Northeast Minnesota Road Map"></a><p>Northeast Minnesota Road Map</p></div>
+        <div class="box"><a href="https://github.com/laurenstrug/mn-landslide-susceptibility-/tree/ArcPy-Update-Version" target="_blank">
+        <img class="highlight" src="images/lidar.PNG" alt="Lidar-derived products with GDAL and Arcpy Project"></a><p>Lidar-derived products with GDAL and Arcpy</p></div>
+        <!---<div class="box"><a href="https://laurenstrug.github.io/MultivariateTransitMap.pdf" target="_blank">
+        <img class="highlight" src="images/multivariate.PNG" alt="Metro Transit Population Served Multivariate Map"></a><p>Metro Transit Population Served Multivariate Map</p></div>
+        <div class="box"><a href="https://brooklynpark.maps.arcgis.com/home/index.html" target="_blank">
+        <img class="highlight" src="images/BrooklynParkHomepage.png" alt="Brooklyn Park AGOL Homepage"></a><p>Brooklyn Park AGOL Homepage Design</p></div>
+        <div class="box"><a href="https://laurenstrug.github.io/Rentals.pdf" target="_blank">
+        <img class="highlight" src="images/rentals.PNG" alt="Brooklyn Park Rentals"></a><p>Brooklyn Park Rentals</p></div>
+        <div class="box"><a href="https://laurenstrug.github.io/ApartmentCommunities.jpg" target="_blank">
+        <img class="highlight" src="images/apartments.PNG" alt="Brooklyn Park Apartment Communities"></a><p>Brooklyn Park Apartment Communities</p></div>--->
+        <div class="box"><a href="https://laurenstrug.github.io/DudeWheresMyCoworker.JPG" target="_blank">
+        <img class="highlight" src="images/DudeWheresMyCoworker.png" alt="Dude Where's my Coworker?"></a><p>Dude Where's My Coworker Geocortex App</p></div>
+        <div class="box"><a href="https://github.com/laurenstrug/NitrogenPollutionModeling" target="_blank">
+        <img class="highlight" src="images/NitrogenPollution.PNG" alt="Nitrogen Pollution Modeling"></a><p>Nitrogen Pollution Modeling Python Project</p></div>
+        <!---<div class="box"><a href="https://laurenstrug.github.io/InorganicNitrogenPoster.pdf" target="_blank">
+        <img class="highlight" src="images/NitrogenPoster.PNG" alt="Inorganic Nitrogen Pollution in Lake Superior Watershed Academic Poster"></a><p>Inorganic Nitrogen Pollution Academic Poster</p></div>-->
+        <div class="box"><a href="https://conservancy.umn.edu/handle/11299/200537" target="_blank">
+        <img class="highlight" src="images/greenway.png" alt="City of Ramsey Greenway Accessibility Project"></a><p>City of Ramsey Greenway Accessibility</p></div>
+        <div class="box"><a href="https://laurenstrug.github.io/LandCoverClassification_LakeCountyMN.pdf" target="_blank">
+        <img class="highlight" src="images/landcover.PNG" alt="Landcover Classification in Lake County, MN"></a><p>Landcover Classification with ASCII</p></div>
+        <div class="box"><a href="https://laurenstrug.github.io/Ottertail.pdf" target="_blank">
+        <img class="highlight" src="images/ottertail.PNG" alt="Ottertail County Map"></a><p>Ottertail County Road Map</p></div>
+        <div class="box"><a href="https://8501fall2017.carto.com/builder/bd183a1c-a6d9-454d-857e-eea9cc99c876/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B44.811557381269765%2C-93.44627380371095%5D%2C%22sw%22%3A%5B45.09242890029916%2C-93.02467346191408%5D%2C%22center%22%3A%5B44.952164961986206%2C-93.23547363281251%5D%2C%22zoom%22%3A11%7D%2C%22widgets%22%3A%7B%227a5d77d1-ba8b-4d96-8b5b-9b3764a8db12%22%3A%7B%22collapsed%22%3Atrue%7D%2C%229148f0af-dd68-4ad4-a92a-f59a88989637%22%3A%7B%22normalized%22%3Atrue%7D%2C%22fa5fda32-e757-4ae8-838c-179a2b65337d%22%3A%7B%22normalized%22%3Atrue%7D%2C%22c4f81019-edbe-4152-9a09-cdc49a28a28b%22%3A%7B%22normalized%22%3Atrue%7D%2C%228c4bd119-f77a-4c30-9e9a-ebdc5e92db69%22%3A%7B%22normalized%22%3Atrue%7D%2C%224732769e-0f9c-4491-915d-6366eab7eeb2%22%3A%7B%22normalized%22%3Atrue%7D%2C%223f3e5d33-9fb4-432b-b88e-6bf18761d1a5%22%3A%7B%22normalized%22%3Atrue%7D%2C%22aad6776d-e050-4161-a42c-d6d865ebd8f2%22%3A%7B%22normalized%22%3Atrue%7D%2C%226bfecfec-c6b6-4466-aaec-383ab2df86f8%22%3A%7B%22normalized%22%3Atrue%7D%2C%220b908db0-81e1-49b8-8794-f3759c01e1f5%22%3A%7B%22normalized%22%3Atrue%7D%2C%22e01cd7a6-627a-4bc8-b4ab-f2a19a740f69%22%3A%7B%22normalized%22%3Atrue%7D%2C%22c753b1c8-7c44-4e6d-91dc-411f64d79133%22%3A%7B%22normalized%22%3Atrue%7D%2C%22928a7440-99e8-43a9-b32e-67e605422c62%22%3A%7B%22normalized%22%3Atrue%7D%2C%22d47f89b3-5cb2-4a5c-a7c0-eb726e96967d%22%3A%7B%22normalized%22%3Atrue%7D%2C%22715f99e0-50d2-4035-bf10-44e7409b1c87%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D"
+        target="_blank">
+        <img class="highlight" src="images/cartomap.png" alt="Twin Cities Traffic Stop Project"></a><p>Twin Cities Traffic Stops App, CARTO</p></div>
+      </div>	
 
-          <h4>Beloit College, Wisconsin, B.S. Geology, May 2015</h4>
+      <h3>ArcGIS Online Web Apps</h3>
+      <div class="cart_box">
+        <div class="box"><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=74c9e566380c45eb95c575e71932973b"  target="_blank">
+        <img class="highlight" src="images/Sirens.PNG" alt="Outdoor Warning Sirens Map"></a><p>Outdoor Warning Sirens</p></div> 
+        <div class="box"><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=b23aa0521ef34bb19d89f3b0f25a434d"  target="_blank">
+        <img class="highlight" src="images/ApartmentFinder.PNG" alt="Apartment Finder Map"></a><p>Apartment Finder</p></div>
+        <div class="box"><a href="https://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=d3215df47ade4879b461f62d70425907" target="_blank">
+        <img class="highlight" src="images/RentalFinder.PNG" alt="Rental License Finder Map"></a><p>Rental License Finder</p></div>
+        <div class="box"><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=7397e3a072dd4b5cadc1444bbe456d68"  target="_blank">
+        <img class="highlight" src="images/SchoolFinder.PNG" alt="Public Schools Finder Map"></a><p>Public Schools</p></div>
+        <div class="box"><a href="http://brooklynpark.maps.arcgis.com/apps/webappviewer/index.html?id=28f28a73beac4a1e85ba567655ee02b9"  target="_blank">
+        <img class="highlight" src="images/SkimStop.PNG" alt="SkimStop Participants Map"></a><p>SkimStop Participants</p></div>
+        <div class="box"><a href="https://storymaps.arcgis.com/stories/2b97391a05da40b0a4698683783acb97" target="_blank">
+        <img class="highlight" src="images/SummerBlossom.PNG" alt="Summer Blossom Map"></a><p>Summer Blossom</p></div>
       </div>
 
-        <h3>Selected Coursework</h3>
-          <div class="grid_course">
-            <div class="a_course"><h4>Graduate</h4></div>
-            <div class="b_course"><p>ArcGIS I and II, Numerical Spatial Analysis, Remote Sensing, Transportation Planning and Management, Urban GIS, GIS Project Management,
-                Advanced Geocomputation, CyberGIS, Cyber Threat Intelligence, Cartography</p></div>
-            <div class="c_course"><h4>Undergraduate</h4></div>
-            <div class="d_course"><p>Petrology, Mineralogy, Geomorphology, Sedimentology, Paleontology, Field Geology,
-                Environmental Geologic Hazards, Calculus I and II, Physics I, Astronomy,
-                Planetary Geology and Astrobiology</p></div>
-          </div>
-            <div class="flowerborder">
-              <div><img src="images/flower5.png"></div>
-              <div><img src="images/flower6.png"></div>
-              <div><img src="images/flower5.png"></div>
-              <div><img src="images/flower6.png"></div>
+        <div class="grid_intro">
+          <p><strong>Other interests and projects:</strong> hillshade and 3D mapping, multivariate thematic mapping in ArcGIS Pro, Object-Based Image Analysis, Bus Rapid Transit Capacity Analysis</p>
+        </div>
+      </div>
+    
+  <!--about-->
+      <div id="about">
+        <h2>Experience</h2>
+          <h3>Skills</h3>
+            <div class="grid_skill">
+              <div class="a_skill">
+                <ul>
+                  <li>ESRI ArcGIS Pro, ArcMap 10.x, Catalog, Administrator, ArcSDE, AGOL, ArcGIS Server, Arcade, Arcpy, ArcGIS API, ModelBuilder</li>
+                  <li>Python (GDAL, Fiona, Shapely, Rasterio, Dask, Pandas, SQLAlchemy, Google Maps API, Twitter API)</li>
+                  <li>Linux command line, CentOS</li>
+                  <li>PostgreSQL, PostGIS, SQLite</li>
+                  <li>Javascript, HTML5, CSS</li>
+          <li>Adobe Illustrator, InDesign, Photoshop</li>
+          <li>Geocortex,mapbox, CARTO, QGIS, IDRISI, eCognition developer</li>
+          <li>Task Manager, Excel data connections</li>
+                </ul>
+              </div>
+              <div class="b_skill"><img src="images/flower4.png"></div>
             </div>
-	</div>
-	
-<!---Contact info--->	
-	<div id="contact">
-		<h2>Contact</h2>
-		<p>Send me an email: laurenstrug[@]gmail.com | Find me on <a href="https://www.linkedin.com/in/lauren-strug-32715160/">LinkedIn </a>| <a href="https://github.com/laurenstrug/">GitHub</a>
-		<div class="copyright"><p>© 2019 Lauren Strug</p></div>
-	</div>
-   </div>
 
-  </body>
+        <div class="edu">
+          <h3>Education</h3>
+            <h4>University of Minnesota, MGIS, December 2019</h4>
+
+            <h4>Beloit College, Wisconsin, B.S. Geology, May 2015</h4>
+        </div>
+
+          <h3>Selected Coursework</h3>
+            <div class="grid_course">
+              <div class="a_course"><h4>Graduate</h4></div>
+              <div class="b_course"><p>ArcGIS I and II, Numerical Spatial Analysis, Remote Sensing, Transportation Planning and Management, Urban GIS, GIS Project Management,
+                  Advanced Geocomputation, CyberGIS, Cyber Threat Intelligence, Cartography</p></div>
+              <div class="c_course"><h4>Undergraduate</h4></div>
+              <div class="d_course"><p>Petrology, Mineralogy, Geomorphology, Sedimentology, Paleontology, Field Geology,
+                  Environmental Geologic Hazards, Calculus I and II, Physics I, Astronomy,
+                  Planetary Geology and Astrobiology</p></div>
+            </div>
+              <div class="flowerborder">
+                <div><img src="images/flower5.png"></div>
+                <div><img src="images/flower6.png"></div>
+                <div><img src="images/flower5.png"></div>
+                <div><img src="images/flower6.png"></div>
+              </div>
+    </div>
+    
+        <!---Contact info--->	
+        <div id="contact">
+          <h2>Contact</h2>
+          <p>Send me an email: laurenstrug[@]gmail.com | Find me on <a href="https://www.linkedin.com/in/lauren-strug-32715160/">LinkedIn </a>| <a href="https://github.com/laurenstrug/">GitHub</a>
+          <div class="copyright"><p>© 2019 Lauren Strug</p></div>
+        </div>
+      </div>
+    <script src="js/scripts.js"></script>
+    </body>
   </html>
